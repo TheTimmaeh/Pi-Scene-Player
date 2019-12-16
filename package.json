@@ -1,0 +1,23 @@
+{
+  "name": "pi-scene-player",
+  "version": "1.0.0",
+  "description": "A scene player for movie production. Made by Team Pi",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "node build.js"
+  },
+  "keywords": [
+    "Pi",
+    "Scene",
+    "Player"
+  ],
+  "author": "Tim Elbert",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^7.1.3"
+  },
+  "dependencies": {
+    "electron-packager": "^14.1.1"
+  }
+}

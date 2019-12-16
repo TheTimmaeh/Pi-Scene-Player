@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pi Scene Player</title>
+    <link href="./resources/css/style.css" rel="stylesheet" />
+    <link href="./resources/webfonts/FontAwesome/css/all.css" rel="stylesheet" />
+  </head>
+  <body>
+    <video id="clip" autoplay loop muted>
+      <source src="" type="video/mp4">
+    </video>
+    <div id="info">
+      <div>
+        <div><i class="fad fa-film-alt"></i>&nbsp;&nbsp;<span id="shot">?</span></div>
+        <div><span id="location">None</span>&nbsp;&nbsp;<i class="fas fa-map-marker-alt"></i></div>
+      </div>
+      <div></div>
+      <div>
+        <div id="status"></div>
+        <div id="time"><span id="progress">0.0</span> / <span id="duration">0.0</span>&nbsp;<i class="fas fa-clock"></i></div>
+      </div>
+    </div>
+    <div id="controls">
+      <div id="cleft"></div>
+      <div>
+        <div id="ctop"></div>
+        <div id="ccenter"></div>
+        <div id="cbottom"></div>
+      </div>
+      <div id="cright"></div>
+    </div>
+    <div id="menu">
+      <div>
+        <div>Pi Scene Player</div>
+        <div><i id="close" class="far fa-times"></i></div>
+      </div>
+      <div>
+        <div id="selection"></div>
+        <div></div>
+      </div>
+    </div>
+    <script src="./resources/js/functions.js"></script>
+  </body>
+</html>
